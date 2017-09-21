@@ -24,31 +24,6 @@ $parsed = json_decode($json);
 foreach($parsed->response->players as $player){
     $ProfilePic = $player->avatarfull;
 }
-
-?>
-<?php
-#Setup OGP array for l8r
-$ogp = "<meta property=\"og:image:secure_url\" content=\"";
-    $ogp .= $ProfilePic;
-    $ogp .= "\">\n<meta property=\"og:image\" content=\"";
-    $ProfilePicNonHTTPS = str_replace("https://","http://",$ProfilePic);
-    $ogp .= $ProfilePicNonHTTPS;
-    $ogp .= "\">";
-$ogp_type = "";
-
-if(substr($ProfilePic, -4) == ".jpg"){
-    $ogp_type = "image/jpeg";
-}elseif(substr($ProfilePic, -4) == ".png"){
-    $ogp_type = "image/png";
-}
-
-$ogp_desc = "Flutters is currently ";
-if ($_SESSION['FluttersOnline'] == true){
-    $ogp_desc .= "Online";
-}else{
-    $ogp_desc .= "Offline";
-}
-
 ?>
     <?php #Caching is a bad idea for Pinging ?>
     <meta http-equiv="cache-control" content="max-age=0" />
@@ -68,6 +43,7 @@ if ($_SESSION['FluttersOnline'] == true){
         <?php #Extra files/Extensions ?>
         <link rel="stylesheet" href="css/site.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        
         <meta property="og:title" content="Fluttershub">
         <meta property="og:site_name" content="Fluttershub.xyz">
         <?php echo $ogp; ?>
@@ -75,6 +51,16 @@ if ($_SESSION['FluttersOnline'] == true){
         <meta property="og:image:width" content="184">
         <meta property="og:image:height" content="184">
         <meta property="og:description" content="<?php echo $ogp_desc ?>">
+        <meta property="og:locale" content="en_GB">
+        <meta property="og:locale:alternate" content="en_US"> 
+
+        <meta property="og:title" content="Fluttershub" />
+        <meta property="og:description" content="Welcome to my website">
+        <meta property="og:type" content="image" />
+        <meta property="og:url" content="http://www.fluttershub.xyz" />
+        <meta property="og:image" content="<?php echo $ProfilePic ?>" />
+        <meta property="og:image:width" content="184">
+        <meta property="og:image:height" content="184">
         <meta property="og:locale" content="en_GB">
         <meta property="og:locale:alternate" content="en_US"> 
     </head>
