@@ -37,7 +37,8 @@ foreach($parsed->response->players as $player){
 
     <!doctype html>
     <html>
-    <head prefix="og: http://ogp.me/ns#">
+    <html prefix="og: http://ogp.me/ns#">
+    <head>
         <meta charset="UTF-8">
         <title>Flutters Homepage</title>
         <?php #Extra files/Extensions ?>
