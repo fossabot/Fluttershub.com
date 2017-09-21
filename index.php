@@ -45,15 +45,16 @@ foreach($parsed->response->players as $player){
         <link rel="stylesheet" href="css/site.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
 
-        <meta content="Fluttershub" property="og:title">
-        <meta content="Welcome to my website" property="og:description">
-        <meta content="image" property="og:type">
-        <meta content="http://www.fluttershub.xyz" property="og:url">
-        <meta content="<?php echo $ProfilePic ?>" property="og:image">
-        <meta content="184" property="og:image:width">
-        <meta content="184" property="og:image:height">
-        <meta content="en_GB" property="og:locale">
-        <meta content="en_US" property="og:locale:alternate"> 
+        <meta property="og:title" content="Fluttershub">
+        <meta property="og:type"content="website">
+        <meta property="og:url" content="http://www.fluttershub.xyz">
+        <meta property="og:image" content="<?php echo $ProfilePic ?>">
+        <meta property="og:image:type" content="image/jpg">
+        <meta property="og:image:width" content="184">
+        <meta property="og:image:height" content="184">
+        <meta property="og:locale" content="en_GB">
+        <meta property="og:locale:alternate" content="en_US"> 
+        <meta property="og:description" content="Welcome to my website">
     </head>
     <body>
         <site>
