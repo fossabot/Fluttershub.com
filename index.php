@@ -71,11 +71,11 @@ foreach($parsed->response->players as $player){
                 ?>
             </status>
             <links>
-                <a href="http://steamcommunity.com/id/MrFlutters/" target="_blank"><img src="img/steam_icon.png" height="32" width="32"> Steam </a>
+                <a href="http://steamcommunity.com/id/MrFlutters/" target="_blank"><img src="img/s_icon.png" height="32" width="32"> Steam </a>
                 <a><img src="img/discord_icon.png" height="32" width="32"> Flutters#5192 </a>
-                <a href="https://twitter.com/MrFlutters" target="_blank"><img src="img/twitter_icon.png" height="32" width="32"> Twitter </a>
-                <a href="https://www.reddit.com/user/MrFlutters/" target="_blank"><img src="img/reddit_icon.png" height="32" width="32"> Reddit </a>
-                <a href="https://www.youtube.com/channel/UCCQ5PkU7kyD2yi6xEocKCRw" target="_blank"><img src="img/youtube_icon.png" height="32" width="32"> Youtube </a>
+                <a href="https://twitter.com/MrFlutters" target="_blank"><img src="img/t_icon.png" height="32" width="32"> Twitter </a>
+                <a href="https://www.reddit.com/user/MrFlutters/" target="_blank"><img src="img/r_icon.png" height="32" width="32"> Reddit </a>
+                <a href="https://www.youtube.com/channel/UCCQ5PkU7kyD2yi6xEocKCRw" target="_blank"><img src="img/y_icon.png" height="32" width="32"> Youtube </a>
             </links>
         </site>
     </body>
