@@ -44,16 +44,25 @@ foreach($parsed->response->players as $player){
         <link rel="stylesheet" href="css/site.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
 
-        <meta property="og:title" content="Fluttershub">
+        <meta property="og:title" content="Welcome to Fluttershub.xyz">
         <meta property="og:type"content="website">
-        <meta property="og:url" content="http://www-develop.fluttershub.xyz/">
+        <meta property="og:url" content="http://www.fluttershub.xyz/">
         <meta property="og:image" content="<?php echo $ProfilePic ?>">
         <meta property="og:image:type" content="image/jpg">
         <meta property="og:image:width" content="184">
         <meta property="og:image:height" content="184">
         <meta property="og:locale" content="en_GB">
         <meta property="og:locale:alternate" content="en_US"> 
-        <meta property="og:description" content="Welcome to my website   Flutters is currently <?php echo $Status ?>">
+        <meta property="og:site_name" content="www.fluttershub.xyz">
+        <?php 
+            if ($_SESSION['FluttersOnline'] == true) {
+                    echo '<meta property="og:description" content="Flutters is currently online">';
+                }
+                else{
+                    echo '<meta property="og:description" content="Flutters is currently online">';
+                }
+        ?>
+
     </head>
     <body>
         <site>
@@ -62,11 +71,9 @@ foreach($parsed->response->players as $player){
             <status>
                 <?php 
                 if ($_SESSION['FluttersOnline'] == true) {
-                    $Status = "Online";
                     echo '<div> Flutters is currently <span style="color: #32CD32">Online<span></div>';
                 }
                 else{
-                    $Status = "Offline";
                     echo '<div> Flutters is currently <span style="color: #DC143C">Offline<span></div>';
                 }
                 ?>
