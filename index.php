@@ -53,7 +53,7 @@ foreach($parsed->response->players as $player){
         <meta property="og:image:height" content="184">
         <meta property="og:locale" content="en_GB">
         <meta property="og:locale:alternate" content="en_US"> 
-        <meta property="og:description" content="Welcome to my website\n New Line Testing">
+        <meta property="og:description" content="Welcome to my website   Flutters is currently <?php echo $Status ?>">
     </head>
     <body>
         <site>
@@ -62,9 +62,11 @@ foreach($parsed->response->players as $player){
             <status>
                 <?php 
                 if ($_SESSION['FluttersOnline'] == true) {
+                    $Status = "Online";
                     echo '<div> Flutters is currently <span style="color: #32CD32">Online<span></div>';
                 }
                 else{
+                    $Status = "Offline";
                     echo '<div> Flutters is currently <span style="color: #DC143C">Offline<span></div>';
                 }
                 ?>
