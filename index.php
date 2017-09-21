@@ -54,15 +54,7 @@ foreach($parsed->response->players as $player){
         <meta property="og:locale" content="en_GB">
         <meta property="og:locale:alternate" content="en_US"> 
         <meta property="og:site_name" content="www.fluttershub.xyz">
-        <?php 
-            if ($_SESSION['FluttersOnline'] == true) {
-                    echo '<meta property="og:description" content="Flutters is currently online">';
-                }
-                else{
-                    echo '<meta property="og:description" content="Flutters is currently online">';
-                }
-        ?>
-
+        <meta property="og:description" content="To view my current online status, Goto the website above!">
     </head>
     <body>
         <site>
