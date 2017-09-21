@@ -53,7 +53,7 @@ foreach($parsed->response->players as $player){
         <meta property="og:image:height" content="184">
         <meta property="og:locale" content="en_GB">
         <meta property="og:locale:alternate" content="en_US"> 
-        <meta property="og:description" content="Welcome to my website">
+        <meta property="og:description" content="Welcome to my website\n New Line Testing">
     </head>
     <body>
         <site>
