@@ -42,17 +42,7 @@ foreach($parsed->response->players as $player){
         <title>Flutters Homepage</title>
         <?php #Extra files/Extensions ?>
         <link rel="stylesheet" href="css/site.css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-        
-        <meta property="og:title" content="Fluttershub">
-        <meta property="og:site_name" content="Fluttershub.xyz">
-        <?php echo $ogp; ?>
-        <meta property="og:image:type" content="<?php echo $ogp_type ?>">
-        <meta property="og:image:width" content="184">
-        <meta property="og:image:height" content="184">
-        <meta property="og:description" content="<?php echo $ogp_desc ?>">
-        <meta property="og:locale" content="en_GB">
-        <meta property="og:locale:alternate" content="en_US"> 
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
 
         <meta property="og:title" content="Fluttershub" />
         <meta property="og:description" content="Welcome to my website">
