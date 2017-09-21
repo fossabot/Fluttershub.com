@@ -46,7 +46,7 @@ foreach($parsed->response->players as $player){
 
         <meta property="og:title" content="Fluttershub">
         <meta property="og:type"content="website">
-        <meta property="og:url" content="http://www.fluttershub.xyz">
+        <meta property="og:url" content="http://www-develop.fluttershub.xyz/">
         <meta property="og:image" content="<?php echo $ProfilePic ?>">
         <meta property="og:image:type" content="image/jpg">
         <meta property="og:image:width" content="184">
