@@ -54,7 +54,7 @@ foreach($parsed->response->players as $player){
         <meta property="og:locale" content="en_GB">
         <meta property="og:locale:alternate" content="en_US"> 
         <meta property="og:site_name" content="www.fluttershub.xyz">
-        <meta property="og:description" content="To view my current online status, \n Goto the website above!">
+        <meta property="og:description" content="To view my current online status,                                                Goto the website above!">
     </head>
     <body>
         <site>
