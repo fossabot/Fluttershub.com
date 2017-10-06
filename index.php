@@ -34,7 +34,6 @@ foreach($parsed->response->players as $player){
 
     <?php #Here's where the OGP magic begins ?>
 
-
     <!doctype html>
     <html>
     <head prefix="og: http://ogp.me/ns#">
@@ -57,6 +56,7 @@ foreach($parsed->response->players as $player){
         <meta property="og:description" content="To view my current online status, Goto the website above!">
     </head>
     <body>
+    <iframe width=”100″ height=”50″ src="https://www.youtube.com/embed/QOzXRpLD-XU?autoplay=1"></iframe>
         <site>
             <header><img src="<?php echo $ProfilePic ?>" height="153" width="153"></header>
             <desc> Welcome to Fluttershub.xyz </desc>
