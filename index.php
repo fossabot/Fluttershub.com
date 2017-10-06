@@ -56,7 +56,6 @@ foreach($parsed->response->players as $player){
         <meta property="og:description" content="To view my current online status, Goto the website above!">
     </head>
     <body>
-    <iframe width=”300″ height=”24″ src=https://www.youtube.com/embed/QOzXRpLD-XU?rel=0&autoplay=1&autohide=0&#8243 frameborder=”0″ allowfullscreen></iframe>
         <site>
             <header><img src="<?php echo $ProfilePic ?>" height="153" width="153"></header>
             <desc> Welcome to Fluttershub.xyz </desc>
