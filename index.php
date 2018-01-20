@@ -1,21 +1,4 @@
 <?php
-#Pinging my Pc to check if its live(simple ping website designed to ping back)
-$host = 'mrflutterspc.ddns.net';
-$ch = curl_init($host);
-curl_setopt($ch, CURLOPT_TIMEOUT, 5);
-curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-$data = curl_exec($ch);
-$httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-curl_close($ch);
-
-if($httpcode>=200 && $httpcode<300){
-    $_SESSION['FluttersOnline'] = true;
-}else{
-    $_SESSION['FluttersOnline'] = false;
-}
-?>
-<?php
 #Uses SteamAPI to retrieve profile picture currently on steam and set it on website
 require_once("inc/config.php");
 $json = file_get_contents("https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=$STEAMAPIKEY&steamids=$STEAMID");
@@ -59,16 +42,6 @@ foreach($parsed->response->players as $player){
         <site>
             <header><img src="<?php echo $ProfilePic ?>" height="153" width="153"></header>
             <desc> Welcome to Fluttershub.xyz </desc>
-            <status>
-                <?php 
-                if ($_SESSION['FluttersOnline'] == true) {
-                    echo '<div> Flutters is currently <span style="color: #32CD32">Online<span></div>';
-                }
-                else{
-                    echo '<div> Flutters is currently <span style="color: #DC143C">Offline<span></div>';
-                }
-                ?>
-            </status>
             <links>
                 <a href="http://steamcommunity.com/id/MrFlutters/" target="_blank"><img src="img/s_icon.png" height="32" width="32"> Steam </a>
                 <a><img src="img/d_icon.png" height="32" width="32"> Flutters#5192 </a>
