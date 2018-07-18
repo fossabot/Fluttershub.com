@@ -26,22 +26,22 @@ foreach($parsed->response->players as $player){
         <link rel="stylesheet" href="css/site.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
 
-        <meta property="og:title" content="Welcome to Fluttershub.xyz">
+        <meta property="og:title" content="Welcome to Fluttershub.com">
         <meta property="og:type"content="website">
-        <meta property="og:url" content="http://www.fluttershub.xyz/">
+        <meta property="og:url" content="http://www.fluttershub.com/">
         <meta property="og:image" content="<?php echo $ProfilePic ?>">
         <meta property="og:image:type" content="image/jpg">
         <meta property="og:image:width" content="184">
         <meta property="og:image:height" content="184">
         <meta property="og:locale" content="en_GB">
         <meta property="og:locale:alternate" content="en_US"> 
-        <meta property="og:site_name" content="www.fluttershub.xyz">
+        <meta property="og:site_name" content="www.fluttershub.com">
         <meta property="og:description" content="To view my current online status, Goto the website above!">
     </head>
     <body>
         <site>
             <header><img src="<?php echo $ProfilePic ?>" height="153" width="153"></header>
-            <desc> Welcome to Fluttershub.xyz </desc>
+            <desc> Welcome to Fluttershub.com </desc>
             <links>
                 <a href="http://steamcommunity.com/id/MrFlutters/" target="_blank"><img src="img/s_icon.png" height="32" width="32"> Steam </a>
                 <a><img src="img/d_icon.png" height="32" width="32"> Flutters#5192 </a>
