@@ -2,7 +2,7 @@ module.exports = {
   test_page: 'tests/index.html?hidepassed',
   disable_watching: true,
   launch_in_ci: [
-    'google-chrome-stable'
+    'google-chrome'
   ],
   launch_in_dev: [
     'Chrome'
