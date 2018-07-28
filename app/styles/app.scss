@@ -1,7 +1,4 @@
 @import "bulma";
-// @import "fontawesome";
-
-// @import "https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css";
 $font: 'Exo 2',
 sans-serif;
 .flutters-dark-gray {
@@ -14,16 +11,8 @@ sans-serif;
   font: 100% $font;
 }
 
-* {
+p {
   color: rgb(255, 255, 255);
-}
-
-.flutters-profile-pic {
-  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 100%);
-  position: relative;
-  padding: 3px;
-  display: inline-block;
-  border-radius: 7em;
 }
 
 .has-image-centered {
@@ -36,12 +25,15 @@ sans-serif;
   margin-left: auto;
   margin-right: auto;
 }
+
 .fa {
   font-size: 2em;
 }
+
 .footer {
   padding: 3rem 1.5rem 3.5rem,
 }
+
 a:hover {
   color: #00d1b2 !important;
 }

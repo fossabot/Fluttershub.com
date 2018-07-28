@@ -1,4 +1,4 @@
-{{nav-bar}} {{!-- 1st Chunk --}}
+{{nav-bar}}
 <section class="hero flutters-dark-gray">
   <div class="hero-body">
     <div class="container">
@@ -11,55 +11,32 @@
     </div>
   </div>
 </section>
-{{!-- Second Chunk --}} {{!--
-<section class="hero flutters-space-gray is-medium">
-  <div class="hero-body">
-    <div class="container is-half level">
-      <div class="level-item">
-        <figure class="image is-128x128">
-          <img class="flutters-profile-pic" src="assets/images/profile-pic.jpg">
-        </figure>
-      </div>
-      <div class="flutters-welcome-info level-item has-text-centered">
-        <div>
-
-          <p class="subtitle is-2 collum is-spaced">About me</p>
-
-          <p class="collum is-spaced">This is some text text</p>
-          <p class="collum is-spaced">This is also some text text</p>
-
-        </div>
-      </div>
+<section class="section hero flutters-space-gray">
+  <div class="columns hero-body flutters-welcome-info">
+    <div class="column">
+      <figure class="">
+        <img class="has-image-centered" width="35%" height="35%" src="assets/images/profile-pic.jpg">
+      </figure>
     </div>
-  </div> --}}
-  <section class="section hero flutters-space-gray">
-    <div class="columns hero-body flutters-welcome-info">
-      <div class="column">
-        <figure class="">
-          <img class="has-image-centered" width="35%" height="35%" src="assets/images/profile-pic.jpg">
-        </figure>
-      </div>
-      <div class="column">
-        <h1 class="subtitle has-text-white-ter">About me</h1>
-        <p>
-          Hey, I'm Flutters, Im 21 and i enjoy tinkering and learning stuff.
-          <br>
-          <br> I'm usually messing around with Virtualization, Docker and automation tools, such as Ansible and Cloud-init.
-          <br> Tho im still learning the ropes
-        </p>
+    <div class="column">
+      <h1 class="subtitle has-text-white-ter">About me</h1>
+      <p>
+        Hey, I'm Flutters, Im 21 and i enjoy tinkering and learning stuff.
         <br>
-        <p>
-          I also mess around with some other tools now such has
-          <a href="https://www.emberjs.com/">Ember</a> and
-          <a href="https://nodejs.org">NodeJS</a>
-        </p>
-        <br>
-        <p>
-          On some rare occasions im hosting public servers, such as Garrys-mod, Factorio and any other games that take my fancy.
-          {{!-- <br> you can find a up to date list of servers
-          <a href="/servers">here</a> --}}
-        </p>
-      </div>
+        <br> I'm usually messing around with Virtualization, Docker and automation tools, such as Ansible and Cloud-init.
+        <br> Tho im still learning the ropes
+      </p>
+      <br>
+      <p>
+        I also mess around with some other tools now such has
+        <a href="https://www.emberjs.com/">Ember</a> and
+        <a href="https://nodejs.org">NodeJS</a>
+      </p>
+      <br>
+      <p>
+        On some rare occasions im hosting public servers, such as Garrys-mod, Factorio and any other games that take my fancy.
+      </p>
     </div>
-  </section>
-  {{flutters-footer}} {{outlet}}
+  </div>
+</section>
+{{flutters-footer}} {{outlet}}
