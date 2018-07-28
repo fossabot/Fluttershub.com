@@ -1,3 +1,5 @@
+#This is the default provided, an more indepth guide will be added in the future
+
 # fluttershub-com
 
 This README outlines the details of collaborating on this Ember application.
