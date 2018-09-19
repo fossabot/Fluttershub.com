@@ -4,6 +4,9 @@ steps:
   args: ['install']
 - name: 'node:8.12.0'
   entrypoint: npm
+  args: ['install']
+- name: 'node:8.12.0'
+  entrypoint: npm
   args: ['lint:js']
 - name: 'node:8.12.0'
   entrypoint: npm
