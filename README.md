@@ -1,5 +1,7 @@
 #This is the default provided, an more indepth guide will be added in the future
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MrFlutters/Fluttershub.com.svg)](https://greenkeeper.io/)
+
 # fluttershub-com
 
 This README outlines the details of collaborating on this Ember application.
