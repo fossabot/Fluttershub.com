@@ -1,11 +1,13 @@
-#This is the default provided, an more indepth guide will be added in the future
+# fluttershub-com
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+#
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/MrFlutters/Fluttershub.com.svg)](https://greenkeeper.io/)
-
-# fluttershub-com
-
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+[![CircleCI](https://circleci.com/gh/MrFlutters/Fluttershub.com/tree/master.svg?style=svg)](https://circleci.com/gh/MrFlutters/Fluttershub.com/tree/master)
+#
+## This is my personal Website i run on https://fluttershub.com
 
 ## Prerequisites
 
@@ -20,17 +22,13 @@ You will need the following things properly installed on your computer.
 
 * `git clone <repository-url>` this repository
 * `cd fluttershub-com`
-* `npm install`
+* `npm install` (This is sometimes required twice)
 
 ## Running / Development
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
 
 ### Running Tests
 
@@ -46,15 +44,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+#
+[![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
