@@ -2,6 +2,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMrFlutters%2FFluttershub.com.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMrFlutters%2FFluttershub.com?ref=badge_shield)
 #
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/MrFlutters/Fluttershub.com.svg)](https://greenkeeper.io/)
@@ -47,3 +48,6 @@ You will need the following things properly installed on your computer.
 #
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMrFlutters%2FFluttershub.com.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FMrFlutters%2FFluttershub.com?ref=badge_large)
